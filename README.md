@@ -1,5 +1,7 @@
 <h1 align="center">
-  <img src="./assets/icon.png" alt="MonadScope Logo" width="120" />
+  <img src="./assets/icon.png" alt="<img width="512" height="512" alt="monadscope_512x512" src="https://github.com/user-attachments/assets/e4b45ec9-5705-48ba-b8ae-4944ab637730" />
+<img width="512" height="512" alt="monadscope_512x512" src="https://github.com/user-attachments/assets/e4b45ec9-5705-48ba-b8ae-4944ab637730" />
+" width="120" />
   <br>
   MonadScope
 </h1>
@@ -31,13 +33,21 @@ MonadScope is a React Native mobile application built specifically for the **Mon
 *(Add your screenshots here by replacing the placeholder links with actual GitHub image uploads)*
 | Dashboard | Validator Details | Validator Search | Push Notification |
 | :---: | :---: | :---: | :---: |
-| <img src="URL_TO_DASHBOARD_IMAGE" width="200" /> | <img src="URL_TO_DETAILS_IMAGE" width="200" /> | <img src="URL_TO_SEARCH_IMAGE" width="200" /> | <img src="URL_TO_NOTIFICATION_IMAGE" width="200" /> |
+| <img src="![photo_2026-02-24_15-22-42](https://github.com/user-attachments/assets/84cddb8a-1129-468a-9289-793956238cd5)
+![photo_2026-02-24_15-22-42](https://github.com/user-attachments/assets/84cddb8a-1129-468a-9289-793956238cd5)
+" width="200" /> | <img src="![photo_2026-02-24_15-22-39](https://github.com/user-attachments/assets/beda0edf-7e35-43ef-afdb-563f67583c8d)
+![photo_2026-02-24_15-22-39](https://github.com/user-attachments/assets/beda0edf-7e35-43ef-afdb-563f67583c8d)
+" width="200" /> | <img src="![photo_2026-02-24_15-22-35](https://github.com/user-attachments/assets/22e2729b-7129-4552-9607-e0255c3abfbe)
+![photo_2026-02-24_15-22-35](https://github.com/user-attachments/assets/22e2729b-7129-4552-9607-e0255c3abfbe)
+" width="200" /> | <img src="![photo_2026-02-24_15-22-31](https://github.com/user-attachments/assets/5f066e6e-3952-45dc-ace5-96a9e5a42503)
+![photo_2026-02-24_15-22-31](https://github.com/user-attachments/assets/5f066e6e-3952-45dc-ace5-96a9e5a42503)
+" width="200" /> |
 ---
 ## 🚀 Installation
 MonadScope is distributed directly as a compiled Android Application Package (`.apk`) so you do not need to build it from the source code.
 ### 1. Download the App
 1. Navigate to the **Releases** tab on this GitHub repository.
-2. Download the latest `monadscope_v1.x.apk` file directly to your Android device.
+2. Download the latest `monadscope_v1.0.0.apk` file directly to your Android device.
 ### 2. Install the APK
 1. Open your Android file manager and tap on the downloaded `.apk` file.
 2. If your phone prompts a security warning, click **Settings** and allow your browser or file manager to **"Install unknown apps"**.
