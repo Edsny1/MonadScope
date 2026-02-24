@@ -1,7 +1,7 @@
 <p align="center">
   <img src="./assets/icon.png" alt="<img width="512" height="512" alt="monadscope_512x512" src="https://github.com/user-attachments/assets/41d65b07-6447-40d2-8eb3-239ec720d12c" />
 <img width="512" height="512" alt="monadscope_512x512" src="https://github.com/user-attachments/assets/41d65b07-6447-40d2-8eb3-239ec720d12c" />
-" width="140" />
+"
 </p>
 
 <h1 align="center">MonadScope</h1>
