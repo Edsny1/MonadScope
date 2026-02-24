@@ -122,17 +122,6 @@ MonadScope is distributed as a compiled Android Application Package (`.apk`).
 
 ---
 
-### 🧑‍💻 Build from Source (Optional)
-
-```bash
-npm install
-npx expo start
-```
-
-Run inside the `react_native_space` directory.
-
----
-
 ## 🛠️ Background Notifications Setup
 
 MonadScope uses `expo-background-fetch` to wake the device and check validator status.
