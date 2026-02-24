@@ -113,9 +113,11 @@ Built with a focus on **speed**, **clarity**, and **zero backend dependency**.
 MonadScope is distributed as a compiled Android Application Package (`.apk`).
 
 ### 1️⃣ Download
-
-1. Go to the **Releases** tab
-2. Download the latest `monadscope_v1.0.0.apk`
+<p align="center">
+  <a href="https://github.com/Edsny1/MonadScope/releases/download/v1.0.0/MonadScope.apk">
+    <img src="https://img.shields.io/badge/Download-APK-6C47FF?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+</p>
 
 ### 2️⃣ Install
 
