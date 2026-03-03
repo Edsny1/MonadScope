@@ -21,6 +21,7 @@
 </p>
 
 <p align="center">
+  <a href="#whats-new"><b>What's New</b></a> •
   <a href="#features"><b>Features</b></a> •
   <a href="#installation"><b>Installation</b></a> •
   <a href="#background-notifications-setup"><b>Background Notifications</b></a> •
@@ -45,6 +46,39 @@ Built with a focus on **speed**, **clarity**, and **zero backend dependency**.
 
 ---
 
+## 🆕 What's New in v2.0.0
+
+### ✨ New Features
+
+**📰 Monad Today Screen**
+- New dedicated tab with real-time Monad ecosystem news
+- Latest YouTube videos from the official Monad channel
+- MONAD price widget (live from CoinGecko — USD + 24h change)
+- Network status bar showing Mainnet & Testnet active validator counts
+- Ecosystem projects with on-chain TVL data (DeFiLlama, Monad-specific)
+
+**🔔 Smarter Push Notifications**
+- Hourly reports now show accurate per-network validator status (Mainnet & Testnet separately)
+- Eliminated false "All Safe" notifications when a validator was actually inactive
+- Fixed composite key bug: same validator on multiple networks now tracked independently
+- Notification logs now recorded for audit and deduplication
+
+**🔄 In-App Update System**
+- App automatically checks for new versions on launch
+- Optional or forced update prompts with release notes
+- Direct download link to latest release
+
+### 🐛 Bug Fixes
+- **Favorites limit**: "Added to favorites" toast no longer shows when the 2-validator network limit is hit
+- **News feed**: Removed low-quality domains (Bitcoinist, CoinGape, CoinPedia, etc.) from news sources; cached articles from blocked sources are cleaned up automatically
+- **Duplicate token registration**: Push token is only re-registered when it changes; otherwise only favorites are synced
+
+### 🔒 Security & Maintenance
+- Backend URL moved to environment variable (`EXPO_PUBLIC_API_URL`) — no longer hardcoded in source
+- Inactive users (30+ days) automatically removed from the database every Monday at 03:00
+
+---
+
 ## ✨ Features
 
 ### 🌐 Network Overview
@@ -53,6 +87,14 @@ Built with a focus on **speed**, **clarity**, and **zero backend dependency**.
 * Total Validators
 * Active status tracking
 * Latest block & gas metrics
+
+### 📰 Monad Today
+
+* Real-time ecosystem news feed
+* Official Monad YouTube videos
+* Live MONAD price (USD + 24h change)
+* Mainnet & Testnet validator status at a glance
+* On-chain TVL data for ecosystem projects
 
 ### 🔍 Validator Search
 
@@ -81,7 +123,7 @@ Built with a focus on **speed**, **clarity**, and **zero backend dependency**.
 
 **All Safe Summary**
 
-* Hourly health reports
+* Hourly health reports per network (Mainnet & Testnet)
 * Requires Android battery settings
 
 ### 📊 Uptime & Charts (WIP)
@@ -113,11 +155,14 @@ Built with a focus on **speed**, **clarity**, and **zero backend dependency**.
 MonadScope is distributed as a compiled Android Application Package (`.apk`).
 
 ### 1️⃣ Download
+
 <p align="center">
-  <a href="https://github.com/Edsny1/MonadScope/releases/download/v1.0.0/MonadScope.apk">
-    <img src="https://img.shields.io/badge/Download-APK-6C47FF?style=for-the-badge&logo=android&logoColor=white" />
+  <a href="https://github.com/Edsny1/MonadScope/releases/latest/download/MonadScope.apk">
+    <img src="https://img.shields.io/badge/Download-Latest%20APK-6C47FF?style=for-the-badge&logo=android&logoColor=white" />
   </a>
 </p>
+
+> 💡 This link always points to the **latest release** automatically — no need to update it manually.
 
 ### 2️⃣ Install
 
@@ -155,6 +200,12 @@ MonadScope fetches data directly from public endpoints.
 
 **RPC (Gas / Block Number)**
 `https://rpc.monad.xyz`
+
+**Price Data**
+`CoinGecko API`
+
+**TVL Data**
+`DeFiLlama API`
 
 **Local Storage**
 `AsyncStorage` + `zustand/middleware/persist`
